@@ -1,0 +1,11 @@
+ @media (min-width: 768px) {
+            .hero {
+                flex-direction: row;
+                text-align: left;
+                gap: 2rem;
+            }
+
+            .hero img {
+                margin-top: 0;
+            }
+        }

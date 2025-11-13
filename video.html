@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo Casa IA</title>
+<style>
+    
+
+* {
+  transition: all 0.3s ease-in-out;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#bg-video {
+  width: 70%;
+  height: 98vh;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+
+.back-link {
+    position: fixed;
+     top: 20px;
+    left: 20px;
+    background-color: rgba(47, 66, 115, 0.7);
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-family: "Poppins", Arial, sans-serif;
+    border-radius: 5px;
+    z-index: 1;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+.back-link:hover {
+  background-color: rgba(47, 66, 115, 1);
+}
+
+</style>
+
+</head>
+<body>
+
+
+    <button class="btn">
+        <a href="index.html" class="back-link">voltar</a>
+    </button>
+
+    <video controls loop playsinline id="bg-video">
+        <source src="video/video-casa-ia.mp4" type="video/mp4">
+        Seu navegador não suporta o vídeo.
+    </video>
+    
+</body>
+</html>

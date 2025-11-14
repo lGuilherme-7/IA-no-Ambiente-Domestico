@@ -237,7 +237,7 @@ Este projeto está licenciado sob a **MIT License** — sinta-se livre para adap
 
 **Guilherme Silva** — Autor do projeto
 
-* GitHub: `https://github.com/lGuilherme-7` (substitua se desejar)
+* GitHub: `https://github.com/lGuilherme-7` 
 * E-mail: `ronaldguilherme044@gmail.com`
 
 ---
